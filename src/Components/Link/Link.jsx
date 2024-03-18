@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function Link({route}) {
   return (
     <>
-          <li className="mr-8"> 
+          <li className="mr-8 hover:bg-amber-500 p-2 m-4 "> 
                     <a href={route.path}>{route.name}</a>
 
                     
@@ -15,9 +15,6 @@ function Link({route}) {
   );
 }
 Link.propTypes = {
-    route: PropTypes.shape({
-      path: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired
-    }).isRequired
+    route: PropTypes.object
   };
 export default Link

@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-    {/* <DaisyUi></DaisyUi> */}
     <Navbar></Navbar>
+    {/* <DaisyUi></DaisyUi> */}
       <h1>nazmul islam jewel</h1>
  
     </>
