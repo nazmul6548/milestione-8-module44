@@ -1,7 +1,9 @@
 
 import './App.css'
 import DaisyUi from './Components/Daisy ui/DaisyUi'
+import LineChart from './Components/Linechart/LineChart'
 import Navbar from './Components/Navbar/Navbar'
+import { PriceOp } from './Components/Priceoptiom/PriceOps'
 
 function App() {
  
@@ -10,7 +12,9 @@ function App() {
     <>
     <Navbar></Navbar>
     {/* <DaisyUi></DaisyUi> */}
-      <h1>nazmul islam jewel</h1>
+    <PriceOp></PriceOp>
+      {/* <h1>nazmul islam jewel</h1> */}
+      <LineChart></LineChart>
  
     </>
   )
